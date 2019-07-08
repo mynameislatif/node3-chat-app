@@ -1,0 +1,13 @@
+.page-title { font-size: 32px; font-weight: 600; margin-bottom: 15px; }
+.btn-fullWidth { width: 100%; }
+
+@media( min-width: 768px ) {
+    .centered-form__box { min-width: 40%; }
+}
+
+#listing-chatMessages { margin: 0; padding: 0; }
+#listing-chatMessages li { list-style-type: none; margin: 0 0 15px 0; }
+.message-info { font-size: 14px; }
+.message-name {font-weight: 700; margin: 0 15px 0 0; }
+.message-meta { color: #999; }
+/* .message-message {} */

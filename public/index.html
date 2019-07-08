@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        
+        <title>Node Chat App - Socket.IO</title>
+        
+        <link rel="icon" href="/images/favicon.png" />
+        <link rel="stylesheet" href="/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/css/styles.min.css" />
+        <link rel="stylesheet" href="/css/styles.css" />
+    </head>
+    <body>
+        <div class="layer-page">
+            <header class="layer-header"></header>
+            <div class="layer-body">
+                <div class="centered-form">
+                    <div class="centered-form__box">
+                        <h1 class="page-title">Join</h1>
+                        <form class="form-login" action="/chat.html">
+                            <div class="form-group">
+                                <label>Display name</label>
+                                <input type="text" class="form-control" name="username" placeholder="Display name" required />
+                            </div>
+                            <div class="form-group">
+                                <label>Room</label>
+                                <input type="text" class="form-control" name="room" placeholder="Room" required />
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary btn-fullWidth">Join</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <footer class="layer-footer"></footer>
+        </div>
+
+        <script src="/js/jquery-3.3.1.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html>
